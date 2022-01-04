@@ -7,7 +7,7 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 230; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 0; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -805,6 +805,7 @@ img {
 .project__img {
     width: 232px;
     justify-self: center;
+    border-radius: 5%;
 }
 /*==================== TESTIMONIAL ====================*/
 .testimonial__data,
@@ -1241,7 +1242,7 @@ img {
     }
 
     .services__container {
-        grid-template-columns: repeat(3, 238px);
+        grid-template-columns: repeat(2, 238px);
     }
 
     .portfolio__content {
