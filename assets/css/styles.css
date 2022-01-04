@@ -1107,6 +1107,7 @@ img {
 
     .nav {
         height: calc(var(--header-height) + 1.5rem);
+        column-gap: 1rem;
     }
     .nav__icon,
     .nav__close,
@@ -1172,6 +1173,9 @@ img {
         grid-template-columns: repeat(3, 218px);
         justify-content: center;
     }
+    .services__icon {
+        font-size: 2rem;
+    }
     .services__content {
         padding: 6rem 0 2rem 2.5rem;
     }
@@ -1179,6 +1183,9 @@ img {
         width: 450px;
     }
 
+    .portfolio__img {
+        width: 320px;
+    }
     .portfolio__content {
         align-items: center;
     }
@@ -1212,6 +1219,9 @@ img {
     }
     .footer__socials {
         justify-self: flex-end;
+    }
+    .footer__copy {
+        margin-top: 4.5rem;
     }
 }
 
